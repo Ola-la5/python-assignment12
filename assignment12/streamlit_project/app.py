@@ -1,6 +1,6 @@
 import streamlit as st  # Importing the Streamlit library
 
-# Basic text elements
+# Basic text elements.
 st.title("My First Streamlit App")  # Adds a big title at the top of the app
 st.header("Section 1")  # Adds a section header — good for breaking content into parts
 st.subheader("Header")  # Slightly smaller than header — useful for structure

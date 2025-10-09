@@ -1,5 +1,5 @@
 import streamlit as st  
-import pandas as pd     # Used to work with tabular data
+import pandas as pd     # Used to work with tabular data.
 import numpy as np      # Helps generate random numbers
 import plotly.express as px  # For interactive charts
 

@@ -33,6 +33,7 @@ import plotly.express as px
 import plotly.data as pldata
 df_3 = pldata.wind(return_type='pandas')
 
+
 print(df_3.head(10))
 print(df_3.tail(10))
 
