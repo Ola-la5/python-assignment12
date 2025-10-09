@@ -7,7 +7,7 @@ df = pldata.gapminder()
 countries = df['country'].drop_duplicates().sort_values()
 
 
-# Initialize Dash app
+# Initialize Dash app.
 app = Dash(__name__)
 server = app.server # <-- the line for task 5
 
