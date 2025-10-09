@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
 
-#task1
+#task1.
 with sqlite3.connect("../db/lesson.db") as conn:
     conn.execute("PRAGMA foreign_keys = 1") 
     
